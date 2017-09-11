@@ -2,14 +2,37 @@
 
 body {
 	font-family: 'Roboto','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
-	color: #463f51;
-	background: #222127;
-	overflow-x: hidden;
+	color: #FFFFFF;
+	background: 	  	 #060613;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-			width: 50%;
-			margin :auto;
 			text-align: left;
 			font-size : 200%;
 }
+#block{
+			display:inline-block;
+			width:50%;
+			margin-left :25%;
+
+
+		}
+
+#blockLeft{
+			float:left;
+			width : 50%;
+			text-align : left;
+		}
+
+#blockRight{
+			float:left;
+			width : 50%;
+			text-align : left;
+		}
+
+#piece_text{
+			float:right;
+			width : 50%;
+			text-align : left;
+			margin-top :2.5%;
+		}
