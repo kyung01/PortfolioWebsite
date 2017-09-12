@@ -92,20 +92,20 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	padding: 4em;
+	padding: 1em;
 }
 
 .tilter__title {
-	margin: 0;
+	margin: 10px;
 	font-weight: normal;
-	font-size: 2.5em;
+	font-size: 2.7em;
 	font-family: 'Abril Fatface', serif;
 	line-height: 1;
-	opacity : 0.9;
+	opacity : 0.9ff;
 }
 
 .tilter__description {
-	margin: 1em 0 0 0;
+	margin: 15px;
 	font-size: 0.85em;
 	letter-spacing: 0.15em;
 }

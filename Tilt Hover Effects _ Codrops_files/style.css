@@ -3,12 +3,12 @@
 body {
 	font-family: 'Roboto','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
 	color: #FFFFFF;
-	background: 	  	 #060613;
+	background: 	  	 	#060613;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 			text-align: left;
-			font-size : 200%;
+			font-size : 100%;
 }
 #block{
 			display:inline-block;
@@ -18,6 +18,18 @@ body {
 
 		}
 
+#profilePicture{
+			float:right;
+			text-align : right;
+			float:right;
+		}
+#profileText{
+			float:left;
+			color: #FFFFFF;
+			width : 50%;
+			margin-top :2.5%;
+			text-align : left;
+		}
 #blockLeft{
 			float:left;
 			width : 50%;
@@ -25,7 +37,7 @@ body {
 		}
 
 #blockRight{
-			float:left;
+			float:right;
 			width : 50%;
 			text-align : left;
 		}
@@ -36,3 +48,8 @@ body {
 			text-align : left;
 			margin-top :2.5%;
 		}
+ul {
+  columns: 5;
+  -webkit-columns: 5;
+  -moz-columns: 5;
+}
