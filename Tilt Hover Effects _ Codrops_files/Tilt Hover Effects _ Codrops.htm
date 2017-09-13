@@ -127,10 +127,10 @@
   
   <div class="arrows">
     <button class="arrow arrow__prev disabled" disabled>
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_prev.svg" alt="prev timeline arrow">
+      <img src="icon_arrowLeft.png" alt="prev timeline arrow">
     </button>
     <button class="arrow arrow__next">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_next.svg" alt="next timeline arrow">
+      <img src="icon_arrowRight.png" alt="next timeline arrow">
     </button>
   </div>
 </section>
@@ -141,8 +141,12 @@
 				<hr>
 				<div id = "fodderIcons">
 					<ul>
-						<li>A</li>
-						<li>B</li>
+						
+						<a href="#" >
+						<li><img src="icon_email.png" id ="footerIcon" >A </li>
+						</a>
+						<a href="#" ><li><img src="icon_question.png" id ="footerIcon" > unestablished</li></a>
+						
 						<li>C</li>
 						<li>D</li>
 						<li>E</li>
@@ -156,7 +160,6 @@
 			</div>
 		</main>
 		<script src="imagesloaded.js"></script>
-		<script src="anime.js"></script>
 		<script src="main.js"></script>
 		<script>
 		(function() {
@@ -205,36 +208,6 @@
 				init();
 			});
 
-			// REMOVE THIS!
-			// For Demo purposes only. Prevent the click event.
-			[].slice.call(document.querySelectorAll('a[href="#"]')).forEach(function(el) {
-				el.addEventListener('click', function(ev) { ev.preventDefault(); });
-			});
-
-			var pater = document.querySelector('.pater'),
-				paterSVG = pater.querySelector('.pater__svg'),
-				pathEl = paterSVG.querySelector('path'),
-				paths = {default: pathEl.getAttribute('d'), active: paterSVG.getAttribute('data-path-hover')};
-
-			pater.addEventListener('mouseenter', function() {
-				anime.remove(pathEl);
-				anime({
-					targets: pathEl,
-					d: paths.active,
-					duration: 400,
-					easing: 'easeOutQuad'
-				});
-			});
-
-			pater.addEventListener('mouseleave', function() {
-				anime.remove(pathEl);
-				anime({
-					targets: pathEl,
-					d: paths.default,
-					duration: 400,
-					easing: 'easeOutExpo'
-				});
-			});
 		})();
 		</script>
 	
