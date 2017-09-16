@@ -1,275 +1,256 @@
+
+
 <!DOCTYPE html>
-<html class="js" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html class="js" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
 		<title>Tilt Hover Effects | Codrops</title>
-		
 		<meta name="description" content="Some ideas for hover effects with a fancy tilt effect">
 		<meta name="keywords" content="tilt, hover, effect, demo, inspiration, animation, template">
 		<meta name="author" content="Codrops">
-		
 		<link rel="shortcut icon" href="https://tympanus.net/Development/TiltHoverEffects/favicon.ico">
 		<link rel="stylesheet" href="footerList.css" >
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="component.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="css/styleTimeline.css">
-    
-        <link rel="stylesheet" href="css/font-awesome.css">
-    
-        <script src="js/anime.js"></script>
+		<link rel="stylesheet" href="css/styleTimeline.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
 		
+		<!-fonts ->
+		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet"> 
+		<script src="js/anime.js"></script>
 	</head>
 	<body class="">
-		
 		<main>
 			<div id = "block">
-				
 				<div id = "blockLeft">
-				
 					<div id = "profilePicture">
-				
 						<section class="content content--c1">
-
-						<a href="#" class="tilter tilter--1">
-							<figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
-								<img class="tilter__image" src="me.jpg" alt="img01">
-								<div class="tilter__deco tilter__deco--shine"><div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div></div>
-								<figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
-									<h3 class="tilter__title">  Kyunghwan Chang</h3>
-									<p class="tilter__description">Programmer</p>
-								</figcaption>
-								<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
-									<path d="M20.5,20.5h260v375h-260V20.5z"></path>
-								</svg>
-							</figure>
-						</a>
-
+							<a href="#" class="tilter tilter--1">
+								<figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+									<img class="tilter__image" src="me.jpg" alt="img01">
+									<div class="tilter__deco tilter__deco--shine">
+										<div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div>
+									</div>
+									<figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+										<h3 class="tilter__title">  Kyunghwan Chang</h3>
+										<p class="tilter__description">Programmer</p>
+									</figcaption>
+									<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+										<path d="M20.5,20.5h260v375h-260V20.5z"></path>
+									</svg>
+								</figure>
+							</a>
 						</section>
 					</div>
 				</div>
-				
-				
-				
 				<div id ="profileText">
 					<h1>Hi</h1>
 					<p>I am from Korea. I am located at Rochester NY.</p>
 					<p>I am a self taught programmer with college(Rochester Institute of Technology) education.</p>
 					<p>I learn mainly by imitating works of others. I love to create something I can see graphically. I admire well written polished codes.</p>
-					<p>Have a look at some of my projects. Or you could learn more about me. If you liked what you see, you could hire me.</p>
-					
+					<p>Have a look at some of my <a id="profileTextLink" href="mailto:hey@timmyomahony.com">projects</a>.
+						<p>Or you could learn more <a id="profileTextLink" href="mailto:hey@timmyomahony.com">about me</a>.</p><p> If you liked what you see, you could <a id="profileTextLink" href="mailto:hey@timmyomahony.com">hire me</a>.</p>
 				</div>
-			
 			</div>
 			<section class="timeline">
-  <ol>
-    <li>
-      <div>
-        <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li></li>
-  </ol>
-  
-  <div class="arrows">
-    <button class="arrow arrow__prev disabled" disabled>
-      <img src="icon_arrowLeft.png" alt="prev timeline arrow">
-    </button>
-    <button class="arrow arrow__next">
-      <img src="icon_arrowRight.png" alt="next timeline arrow">
-    </button>
-  </div>
-</section>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
-
-    <script src="js/index.js"></script>
+				<ol>
+					<li>
+						<div>
+							<time>2008</time> First year in US. Enrolled into Holy Name High School Worcester MA.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time>2011</time> Graduated from the highschool.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time>2011</time> Enrolled into Rochester Institute of Technology
+						</div>
+					</li>
+					<li>
+						<div>
+							<time>2014</time> Army is mandatory requirement. Start first year serving in an army.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time>2016</time> Finish army.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time>2017</time> Come back to RIT. Continue education.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time></time> Get a job.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time></time> Fall in love.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time></time> Marry.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time></time> Kids.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time></time> Retire.
+						</div>
+					</li>
+					<li>
+						<div>
+							<time></time> Happily ever after...
+						</div>
+					</li>
+					<li></li>
+				</ol>
+				<div class="arrows">
+					<button class="arrow arrow__prev disabled" disabled>
+					<img src="icon_arrowLeft.png" alt="prev timeline arrow">
+					</button>
+					<button class="arrow arrow__next">
+					<img src="icon_arrowRight.png" alt="next timeline arrow">
+					</button>
+				</div>
+			</section>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+			<script src="js/index.js"></script>
 			<div id = "block">
 				<hr>
 				<div id = "fodderIcons">
-					<ul>
-						<a href="#" > <li><i class="fa fa-car"></i> A </li></a>
-						<a href="#" ><li><img src="icon_question.png" id ="footerIcon" > unestablished</li></a>
-						
-						<li>D</li>
-						<li>E</li>
-						<li>F</li>
+					<ul class="icons-list">
+						<li class="icons-list__item">
+							<a href="mailto:hey@timmyomahony.com" rel="nofollow" target="_blank" title="Send me an email">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							Email
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="https://github.com/timmyomahony/" rel="nofollow" target="_blank" title="Look through my Github profile">
+							<i class="fa fa-github" aria-hidden="true"></i>
+							Github
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="https://twitter.com/timmyomahony/" rel="nofollow" target="_blank" title="Tweet me!">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							Twitter
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="https://www.linkedin.com/pub/timmy-o-mahony/b2/7b9/a36" rel="nofollow" target="_blank" title="See my LinkedIn profile">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							LinkedIn
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="http://stackoverflow.com/users/396300/timmy-omahony" rel="nofollow" target="_blank" title="See my StackOverflow profile">
+							<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+							Stack Overflow
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="https://www.bitbucket.org/timmyomahony" rel="nofollow" target="_blank" title="Visit my Bitbucket profile">
+							<i class="fa fa-bitbucket" aria-hidden="true"></i>
+							BitBucket
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="https://codepen.io/timmyomahony/" rel="nofollow" target="_blank" title="Visit my Codepen profile">
+							<i class="fa fa-codepen" aria-hidden="true"></i>
+							Codepen
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="https://www.codementor.io/timmyomahony" rel="nofollow" target="_blank" title="Visit my Code Mentor profile">
+							<i class="fa fa-code" aria-hidden="true"></i>
+							Code Mentor
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="https://www.trello.com/timmyomahony" rel="nofollow" target="_blank" title="Find me on Trello">
+							<i class="fa fa-trello" aria-hidden="true"></i>
+							Trello
+							</a>
+						</li>
+						<li class="icons-list__item">
+							<a href="skype:timmyomahony" rel="nofollow" target="_blank" title="Call me on Skype">
+							<i class="fa fa-skype" aria-hidden="true"></i>
+							Skype
+							</a>
+						</li>
 					</ul>
-                    /*Experimental code below*/
-                    <ul class="icons-list">
-  <li class="icons-list__item">
-    <a href="mailto:hey@timmyomahony.com" rel="nofollow" target="_blank" title="Send me an email">
-      <i class="fa fa-envelope" aria-hidden="true"></i>
-      Email
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="https://github.com/timmyomahony/" rel="nofollow" target="_blank" title="Look through my Github profile">
-      <i class="fa fa-github" aria-hidden="true"></i>
-      Github
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="https://twitter.com/timmyomahony/" rel="nofollow" target="_blank" title="Tweet me!">
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-      Twitter
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="https://www.linkedin.com/pub/timmy-o-mahony/b2/7b9/a36" rel="nofollow" target="_blank" title="See my LinkedIn profile">
-      <i class="fa fa-linkedin" aria-hidden="true"></i>
-      LinkedIn
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="http://stackoverflow.com/users/396300/timmy-omahony" rel="nofollow" target="_blank" title="See my StackOverflow profile">
-      <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-      Stack Overflow
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="https://www.bitbucket.org/timmyomahony" rel="nofollow" target="_blank" title="Visit my Bitbucket profile">
-      <i class="fa fa-bitbucket" aria-hidden="true"></i>
-      BitBucket
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="https://codepen.io/timmyomahony/" rel="nofollow" target="_blank" title="Visit my Codepen profile">
-      <i class="fa fa-codepen" aria-hidden="true"></i>
-      Codepen
-    </a>
-  </li>
-  <li class="icons-list__item">
-  <a href="https://www.codementor.io/timmyomahony" rel="nofollow" target="_blank" title="Visit my Code Mentor profile">
-      <i class="fa fa-code" aria-hidden="true"></i>
-      Code Mentor
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="https://www.trello.com/timmyomahony" rel="nofollow" target="_blank" title="Find me on Trello">
-      <i class="fa fa-trello" aria-hidden="true"></i>
-      Trello
-    </a>
-  </li>
-  <li class="icons-list__item">
-    <a href="skype:timmyomahony" rel="nofollow" target="_blank" title="Call me on Skype">
-      <i class="fa fa-skype" aria-hidden="true"></i>
-      Skype
-    </a>
-  </li>
-</ul>
-                    /*Experimental code end*/
-                    
 				</div>
 			</div>
 		</main>
 		<script src="imagesloaded.js"></script>
 		<script src="main.js"></script>
 		<script>
-		(function() {
-			var tiltSettings = [
-			{},
-			{
-				movement: {
-					imgWrapper : {
-						translation : {x: 10, y: 10, z: 30},
-						rotation : {x: 0, y: -10, z: 0},
-						reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
-					},
-					lines : {
-						translation : {x: 10, y: 10, z: [0,70]},
-						rotation : {x: 0, y: 0, z: -2},
-						reverseAnimation : {duration : 2000, easing : 'easeOutExpo'}
-					},
-					caption : {
-						rotation : {x: 0, y: 0, z: 2},
-						reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
-					},
-					overlay : {
-						translation : {x: 10, y: -10, z: 0},
-						rotation : {x: 0, y: 0, z: 2},
-						reverseAnimation : {duration : 2000, easing : 'easeOutExpo'}
-					},
-					shine : {
-						translation : {x: 100, y: 100, z: 0},
-						reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
+			(function() {
+				var tiltSettings = [
+				{},
+				{
+					movement: {
+						imgWrapper : {
+							translation : {x: 10, y: 10, z: 30},
+							rotation : {x: 0, y: -10, z: 0},
+							reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
+						},
+						lines : {
+							translation : {x: 10, y: 10, z: [0,70]},
+							rotation : {x: 0, y: 0, z: -2},
+							reverseAnimation : {duration : 2000, easing : 'easeOutExpo'}
+						},
+						caption : {
+							rotation : {x: 0, y: 0, z: 2},
+							reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
+						},
+						overlay : {
+							translation : {x: 10, y: -10, z: 0},
+							rotation : {x: 0, y: 0, z: 2},
+							reverseAnimation : {duration : 2000, easing : 'easeOutExpo'}
+						},
+						shine : {
+							translation : {x: 100, y: 100, z: 0},
+							reverseAnimation : {duration : 200, easing : 'easeOutQuad'}
+						}
 					}
 				}
-			}
-			];
-
-			function init() {
-				var idx = 0;
-				[].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
-					idx = pos%2 === 0 ? idx+1 : idx;
-					new TiltFx(el, tiltSettings[idx-1]);
+				];
+			
+				function init() {
+					var idx = 0;
+					[].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
+						idx = pos%2 === 0 ? idx+1 : idx;
+						new TiltFx(el, tiltSettings[idx-1]);
+					});
+				}
+			
+				// Preload all images.
+				imagesLoaded(document.querySelector('main'), function() {
+					document.body.classList.remove('loading');
+					init();
 				});
-			}
-
-			// Preload all images.
-			imagesLoaded(document.querySelector('main'), function() {
-				document.body.classList.remove('loading');
-				init();
-			});
-
-		})();
+			
+			})();
 		</script>
-	
-</body></html>
+	</body>
+</html>
+

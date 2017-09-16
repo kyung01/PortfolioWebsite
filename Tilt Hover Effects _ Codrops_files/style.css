@@ -27,12 +27,34 @@ body {
 			float:right;
 		}
 #profileText{
+	font-family: 'Trebuchet MS','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
 			float:left;
 			color: #FFFFFF;
 			width : 50%;
 			margin-top :2.5%;
 			text-align : left;
+			font-size : 130%;
 		}
+/*
+a{
+      color: #FFF;
+    text-decoration:none;
+}
+a:hover {
+      color: #ff00c8;
+      text-decoration: none; 
+}
+*/
+#profileTextLink{
+	font-family: 'Francois One', sans-serif;
+      color: #ebff00;
+    text-decoration:none;
+}
+#profileTextLink:hover {
+      color: #060613;
+      text-decoration: none; 
+	background: #ebff00;
+}
 #blockLeft{
 			float:left;
 			width : 50%;
@@ -46,6 +68,7 @@ body {
 		}
 
 #piece_text{
+	
 			float:right;
 			width : 50%;
 			text-align : left;

@@ -7,18 +7,12 @@ ul {
 }
 
 
-a{
-      color: #FFF;
-    text-decoration:none;
-}
-a:hover {
-      color: #ff00c8;
-      text-decoration: none; 
-}
+
 
 /* list style for footer*/
 
 .icons-list {
+  padding:  1rem; 
 }
 
 .icons-list__item {
@@ -27,13 +21,14 @@ a:hover {
   -webkit-columns: 5;
   -moz-columns: 5;
   list-style: none;
-  margin: 0 0 2.5rem;
-  padding: 0; 
+  margin: 0 0 0.5rem;
+  padding:  0; 
 }
   .icons-list__item a {
-    color: #373737; }
+    text-decoration:none;
+    color: #FFF; }
     .icons-list__item a:hover {
-      color: #ff00c8;
+      color:#fff500;
       text-decoration: none; 
 }
   .icons-list__item i {
