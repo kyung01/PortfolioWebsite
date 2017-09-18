@@ -1,3 +1,8 @@
+
+#topRightBttn{
+    text-align: center;
+	margin:auto;
+}
 /* General styles for all menus */
 .cbp-spmenu {
 	background: #47a3da;
