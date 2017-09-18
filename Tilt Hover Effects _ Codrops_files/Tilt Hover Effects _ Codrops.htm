@@ -23,9 +23,41 @@
 		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet"> 
 		<script src="js/anime.js"></script>
+		<!-slide->
+		
+		<link rel="stylesheet" type="text/css" href="css/slideComponent.css" />
+		<script src="js/slideModernizr.custom.js"></script>
+		<script src="js/SlideClassie.js"></script>
+		
 	</head>
-	<body class="">
+	<body  class="cbp-spmenu-push">
 		<main>
+		//slide 
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+			<h3>Menu</h3>
+			<a href="#">Celery seakale</a>
+			<a href="#">Dulse daikon</a>
+			<a href="#">Zucchini garlic</a>
+			<a href="#">Catsear azuki bean</a>
+			<a href="#">Dandelion bunya</a>
+			<a href="#">Rutabaga</a>
+		</nav>
+		
+		<div class="container">
+			
+			<div class="main">
+				<section class="buttonset" >
+					<div id="topRightBttn">
+					<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+					<button id="showRightPush">Show/Hide Right Push Menu</button>
+					</div>
+				</section>
+			</div>
+		</div>
+			
+		//slideEnd
+			
+			
 			<div id = "block">
 				<div id = "blockLeft">
 					<div id = "profilePicture">
@@ -202,6 +234,7 @@
 		</main>
 		<script src="imagesloaded.js"></script>
 		<script src="main.js"></script>
+		
 		<script>
 			(function() {
 				var tiltSettings = [
@@ -250,6 +283,21 @@
 				});
 			
 			})();
+			
+			
+			//push
+			
+				 menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+				 showLeftPush = document.getElementById( 'showLeftPush' ),
+				 showRightPush = document.getElementById( 'showRightPush' ),
+				 body = document.body;
+
+			
+			showRightPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toleft' );
+				classie.toggle( menuRight, 'cbp-spmenu-open' );
+			};
 		</script>
 	</body>
 </html>
