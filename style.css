@@ -1,0 +1,86 @@
+*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-family: 'Roboto','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
+	color: #FFFFFF;
+	background: 	  	 	#FFF;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+			text-align: left;
+			font-size : 100%;
+}
+#block{
+			display:inline-block;
+			width:50%;
+			margin-left :25%;
+
+
+		}
+#footerIcon{
+	width:15px;
+	height: :15px;
+}
+#profilePicture{
+			float:right;
+			text-align : right;
+			float:right;
+		}
+#profileText{
+	font-family: 'Trebuchet MS','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
+			float:left;
+			color: #000;
+			width : 50%;
+			text-align : left;
+			font-size : 130%;
+    line-height: 1.0;
+		}
+/*
+a{
+      color: #FFF;
+    text-decoration:none;
+}
+a:hover {
+      color: #ff00c8;
+      text-decoration: none; 
+}
+*/
+#profileTextLink{
+	font-family: 'Francois One', sans-serif;
+      color: #FFF;
+    font-weight: normal;
+	background: #000;
+    text-decoration:none;
+}
+#profileTextLink:hover {
+	color: #FFF;
+	background: #00c4ff;
+    font-weight: bold;
+}
+#blockLeft{
+			float:left;
+			width : 50%;
+			text-align : left;
+		}
+
+#blockRight{
+			float:right;
+			width : 50%;
+			text-align : left;
+		}
+
+#piece_text{
+	
+			float:right;
+			width : 50%;
+			text-align : left;
+			margin-top :2.5%;
+		}
+/*
+
+ul {
+  columns: 5;
+  -webkit-columns: 5;
+  -moz-columns: 5;
+}
+*/

@@ -35,6 +35,30 @@ body {
 			font-size : 130%;
     line-height: 1.0;
 		}
+
+#portfolioPiece{
+	color: black;
+	text-align : center;
+	width : 50%;
+	margin-left: 25%;
+}
+#portfolioPiece h1{
+	color: white;
+	background: black;
+			text-align : left;
+    font-weight: bold;
+}
+#portfolioPiece h1:hover {
+	background: #00c4ff;
+	color: #FFF;
+    font-weight: bold;
+}
+#portfolioPiece p{
+			text-align : left;
+}
+#portfolioPiece img{
+	width : 100%;
+}
 /*
 a{
       color: #FFF;

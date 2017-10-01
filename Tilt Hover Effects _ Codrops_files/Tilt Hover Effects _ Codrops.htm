@@ -16,17 +16,18 @@
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="component.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="css/styleTimeline.css">
 		<link rel="stylesheet" href="css/font-awesome.css">
 		
 		<!-fonts ->
 		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet"> 
 		<script src="js/anime.js"></script>
-		<!-slide->
 		
-		<link rel="stylesheet" type="text/css" href="css/slideComponent.css" />
-		<script src="js/slideModernizr.custom.js"></script>
-		<script src="js/SlideClassie.js"></script>
+		<!-slide->
+		<link rel="stylesheet" type="text/css" href="css/slideComponent.css" /> <!-remove this-> 
+		<script src="js/slideModernizr.custom.js"></script><!-remove this->
+		<script src="js/SlideClassie.js"></script><!-remove this->
 		
 	</head>
 	<body  class="cbp-spmenu-push">
@@ -43,17 +44,17 @@
 		
 		<div class="container">
 			
+			<div class="main">
 				<section class="buttonset" >
 					<div id="topRightBttn">
 					<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-					<button id="showRightPush">
-						
-							<i  class="fa fa-bars" aria-hidden="true"></i>
+						<button id="showRightPush">
+							<i id ="showRightPushIcn" class="fa fa-bars" aria-hidden="true"></i>
 						</button>
 					</div>
 				</section>
+			</div>
 		</div>
-			
 			
 			
 			<div id = "block">
@@ -87,7 +88,9 @@
 						<p>Or you could learn more <a id="profileTextLink" href="mailto:hey@timmyomahony.com">about me</a>.</p><p> If you liked what you see, you could <a id="profileTextLink" href="mailto:hey@timmyomahony.com">hire me</a>.</p>
 				</div>
 			</div>
+			
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+			<script src="js/index.js"></script>
 			<div id = "block">
 				<hr>
 				<div id = "fodderIcons">
@@ -214,8 +217,11 @@
 				 menuRight = document.getElementById( 'cbp-spmenu-s2' ),
 				 showLeftPush = document.getElementById( 'showLeftPush' ),
 				 showRightPush = document.getElementById( 'showRightPush' ),
+				 showRightPushIcn = document.getElementById( 'showRightPushIcn' ),
 				 body = document.body;
-
+			
+			showRightPushIcn.onclick = function(){
+			};
 			
 			showRightPush.onclick = function() {
 				classie.toggle( this, 'active' );

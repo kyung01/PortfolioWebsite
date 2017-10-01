@@ -26,11 +26,10 @@ ul {
 }
   .icons-list__item a {
     text-decoration:none;
-    color: #000; }
+    color: #FFF; }
     .icons-list__item a:hover {
-		color:#00c4ff;
+      color:#fff500;
       text-decoration: none; 
-    font-weight: bold;
 }
   .icons-list__item i {
     margin-right: .5rem; }
