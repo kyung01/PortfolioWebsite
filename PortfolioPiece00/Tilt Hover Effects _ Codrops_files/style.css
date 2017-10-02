@@ -3,7 +3,7 @@
 body {
 	font-family: 'Roboto','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
 	color: #FFFFFF;
-	background: 	  	 	#FFF;
+	background: 	  	 	#060613;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
@@ -29,38 +29,12 @@ body {
 #profileText{
 	font-family: 'Trebuchet MS','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
 			float:left;
-			color: #000;
+			color: #FFFFFF;
 			width : 50%;
+			margin-top :2.5%;
 			text-align : left;
 			font-size : 130%;
-    line-height: 1.0;
 		}
-
-#portfolioPiece{
-	color: black;
-	text-align : center;
-	width : 50%;
-	margin-left: 25%;
-}
-#portfolioPiece h1{
-	color: white;
-	background: black;
-			text-align : left;
-    font-weight: bold;
-			font-size : 200%;
-}
-#portfolioPiece h1:hover {
-	background: #00c4ff;
-	color: #FFF;
-    font-weight: bold;
-			font-size : 201%;
-}
-#portfolioPiece p{
-			text-align : left;
-}
-#portfolioPiece img{
-	width : 100%;
-}
 /*
 a{
       color: #FFF;
@@ -73,15 +47,13 @@ a:hover {
 */
 #profileTextLink{
 	font-family: 'Francois One', sans-serif;
-      color: #FFF;
-    font-weight: normal;
-	background: #000;
+      color: #ebff00;
     text-decoration:none;
 }
 #profileTextLink:hover {
-	color: #FFF;
-	background: #00c4ff;
-    font-weight: bold;
+      color: #060613;
+      text-decoration: none; 
+	background: #ebff00;
 }
 #blockLeft{
 			float:left;
