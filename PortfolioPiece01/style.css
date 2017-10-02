@@ -43,13 +43,26 @@ body {
 	margin-left: 25%;
 }
 #portfolioPiece h1{
+	font-family: 'Francois One', sans-serif;
 	color: white;
 	background: black;
 			text-align : left;
-    font-weight: bold;
+    font-weight: normal;
 			font-size : 200%;
 }
 #portfolioPiece h1:hover {
+	background: #00c4ff;
+	color: #FFF;
+    font-weight: bold;
+}
+#portfolioPiece a{
+	font-family: 'Francois One', sans-serif;
+	text-decoration:none;
+	color: white;
+	background: black;
+    font-weight: normal;
+}
+#portfolioPiece a:hover {
 	background: #00c4ff;
 	color: #FFF;
     font-weight: bold;
