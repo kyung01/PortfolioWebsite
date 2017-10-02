@@ -7,7 +7,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Portfolio | Projects </title>
+		<title>Tilt Hover Effects | Codrops</title>
 		<meta name="description" content="Some ideas for hover effects with a fancy tilt effect">
 		<meta name="keywords" content="tilt, hover, effect, demo, inspiration, animation, template">
 		<meta name="author" content="Codrops">
@@ -16,17 +16,18 @@
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="component.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="css/styleTimeline.css">
 		<link rel="stylesheet" href="css/font-awesome.css">
 		
 		<!-fonts ->
 		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet"> 
 		<script src="js/anime.js"></script>
-		<!-slide->
 		
-		<link rel="stylesheet" type="text/css" href="css/slideComponent.css" />
-		<script src="js/slideModernizr.custom.js"></script>
-		<script src="js/slideClassie.js"></script>
+		<!-slide->
+		<link rel="stylesheet" type="text/css" href="css/slideComponent.css" /> <!-remove this-> 
+		<script src="js/slideModernizr.custom.js"></script><!-remove this->
+		<script src="js/SlideClassie.js"></script><!-remove this->
 		
 	</head>
 	<body  class="cbp-spmenu-push">
@@ -43,42 +44,53 @@
 		
 		<div class="container">
 			
+			<div class="main">
 				<section class="buttonset" >
 					<div id="topRightBttn">
 					<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-					<button id="showRightPush">
-						
-							<i  class="fa fa-bars" aria-hidden="true"></i>
+						<button id="showRightPush">
+							<i id ="showRightPushIcn" class="fa fa-bars" aria-hidden="true"></i>
 						</button>
 					</div>
 				</section>
+			</div>
 		</div>
 			
 			
+			<div id = "block">
+				<div id = "blockLeft">
+					<div id = "profilePicture">
+						<section class="content content--c1">
+							<a href="#" class="tilter tilter--1">
+								<figure class="tilter__figure" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+									<img class="tilter__image" src="me.jpg" alt="img01">
+									<div class="tilter__deco tilter__deco--shine">
+										<div style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);"></div>
+									</div>
+									<figcaption class="tilter__caption" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+										<h3 class="tilter__title">  Kyunghwan Chang</h3>
+										<p class="tilter__description">Programmer</p>
+									</figcaption>
+									<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415" style="transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);">
+										<path d="M20.5,20.5h260v375h-260V20.5z"></path>
+									</svg>
+								</figure>
+							</a>
+						</section>
+					</div>
+				</div>
+				<div id ="profileText">
+					<h1>Hi</h1>
+					<p>I am from Korea. I am located at Rochester NY.</p>
+					<p>I am a self taught programmer with college(Rochester Institute of Technology) education.</p>
+					<p>I learn mainly by imitating works of others. I love to create something I can see graphically. I admire well written polished codes.</p>
+					<p>Have a look at some of my <a id="profileTextLink" href="mailto:hey@timmyomahony.com">projects</a>.
+						<p>Or you could learn more <a id="profileTextLink" href="mailto:hey@timmyomahony.com">about me</a>.</p><p> If you liked what you see, you could <a id="profileTextLink" href="mailto:hey@timmyomahony.com">hire me</a>.</p>
+				</div>
+			</div>
 			
-			
-			<section id = "portfolioPiece">
-                <a></a>
-				<a href="../PortfolioPiece00"><h1>Reflective Shadow Map</h1></a>
-				<p>DirectX based demo showcasing reflective shadow maps with deferred rendering process. Done as a solo project for Found of Game Graphics Program class at Rochester Institute of Technology. </p>
-				<img src="title00.png" alt="Title Image">
-			</section>
-			<section id = "portfolioPiece">
-                <a href="../PortfolioPiece01"><h1>Fractionauts</h1></a>
-				<p>A rocket themed educational game targeted towards 4th grade students interested in learning how to perform basic arithmetic with fractions. Done as a group project for Humanitarian FOSS Development class at Rochester Institute of Technology. </p>
-				<img src="title01.png" alt="Title Image">
-			</section>
-			<section id = "portfolioPiece">
-                <a href="../PortfolioPiece02"><h1>Two Puzzle Games For Mobile And PC</h1></a>
-				<p>First puzzle game is basically copy of game called "Endings". I have copied 50+ maps in the original game exactly both in terms of design and logic behaviour of enemies. Second game is my own creation. It combined turn based action puzzle concept from "Endings" with Galaxy like gameplay. </p>
-				<img src="title02.png" alt="Title Image">
-			</section>
-			<section id = "portfolioPiece">
-                <a href="../PortfolioPiece03"><h1>Four Android Games</h1></a>
-				<p>These are early rough projects in which I attempted in order to learn Android. They are side scrolling shooter, flood puzzle, connecting dots simple mindless time killer, and more complex shape cutting puzzle game. All of them are copies of inspiration. They helped me to get started.</p>
-				<img src="title03.png" alt="Title Image">
-			</section>
 			<script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+			<script src="js/index.js"></script>
 			<div id = "block">
 				<hr>
 				<div id = "fodderIcons">
@@ -205,8 +217,11 @@
 				 menuRight = document.getElementById( 'cbp-spmenu-s2' ),
 				 showLeftPush = document.getElementById( 'showLeftPush' ),
 				 showRightPush = document.getElementById( 'showRightPush' ),
+				 showRightPushIcn = document.getElementById( 'showRightPushIcn' ),
 				 body = document.body;
-
+			
+			showRightPushIcn.onclick = function(){
+			};
 			
 			showRightPush.onclick = function() {
 				classie.toggle( this, 'active' );
